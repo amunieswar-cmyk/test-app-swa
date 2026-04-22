@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App - Azure Static Web Apps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Test App Deployment</h1>
+            <p class="subtitle">Successfully deployed to Azure Static Web Apps</p>
+        </header>
+
+        <main>
+            <section class="info-card">
+                <h2>Deployment Status</h2>
+                <p class="status-badge success">✓ Active</p>
+                <p>This test application is running on Azure Static Web Apps.</p>
+            </section>
+
+            <section class="info-card">
+                <h2>Environment Info</h2>
+                <ul>
+                    <li><strong>Timestamp:</strong> <span id="timestamp"></span></li>
+                    <li><strong>User Agent:</strong> <span id="userAgent"></span></li>
+                    <li><strong>Current URL:</strong> <span id="currentUrl"></span></li>
+                </ul>
+            </section>
+
+            <section class="info-card">
+                <h2>Features</h2>
+                <ul>
+                    <li>✓ Static HTML, CSS, and JavaScript</li>
+                    <li>✓ Responsive design</li>
+                    <li>✓ Azure Static Web Apps deployment</li>
+                    <li>✓ Auto-generated build & deploy workflows</li>
+                </ul>
+            </section>
+
+            <section class="info-card">
+                <h2>Quick Actions</h2>
+                <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+                <button onclick="showAlert()">📢 Show Alert</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Test App | Azure Static Web Apps</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
